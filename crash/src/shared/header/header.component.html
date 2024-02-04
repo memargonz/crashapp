@@ -1,0 +1,17 @@
+<div class="w-full border-solid border-b-2">
+  <div>
+    <mat-toolbar color="primary">
+      <span class="w-1/2 mx-auto text-center"
+        >Crash
+        <mat-icon aria-label="Crash Icon" fontIcon="directions_car"></mat-icon>
+      </span>
+    </mat-toolbar>
+  </div>
+  <div>
+    <nav mat-tab-nav-bar [tabPanel]="tabPanel">
+      <a mat-tab-link [routerLink]="'/home'"> Home </a>
+      <a mat-tab-link [routerLink]="'/reporting'"> Reporting </a>
+    </nav>
+    <mat-tab-nav-panel #tabPanel></mat-tab-nav-panel>
+  </div>
+</div>
