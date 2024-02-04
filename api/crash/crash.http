@@ -1,0 +1,6 @@
+@crash_HostAddress = http://localhost:5119
+
+GET {{crash_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
