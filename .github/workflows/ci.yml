@@ -9,9 +9,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: "14"
-      - run: |
-      cd crash
-      npm i
+      - run: cd crash && npm i
   dotnet-build:
     runs-on: ubuntu-latest
     steps:
@@ -19,6 +17,4 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: "14"
-      - run: | 
-      cd ./api/crash
-      dotnet build
+      - run: cd ./api/crash && dotnet build
