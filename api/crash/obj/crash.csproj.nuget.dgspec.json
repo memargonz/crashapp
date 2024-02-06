@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projects\\crash-app\\api\\crash\\crash.csproj": {}
+    "E:\\Projects\\crash-app\\api\\crash\\Crash.csproj": {}
   },
   "projects": {
-    "E:\\Projects\\crash-app\\api\\crash\\crash.csproj": {
+    "E:\\Projects\\crash-app\\api\\crash\\Crash.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\crash-app\\api\\crash\\crash.csproj",
-        "projectName": "crash",
-        "projectPath": "E:\\Projects\\crash-app\\api\\crash\\crash.csproj",
+        "projectUniqueName": "E:\\Projects\\crash-app\\api\\crash\\Crash.csproj",
+        "projectName": "Crash",
+        "projectPath": "E:\\Projects\\crash-app\\api\\crash\\Crash.csproj",
         "packagesPath": "C:\\Users\\Ian\\.nuget\\packages\\",
         "outputPath": "E:\\Projects\\crash-app\\api\\crash\\obj\\",
         "projectStyle": "PackageReference",
