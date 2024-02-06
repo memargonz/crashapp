@@ -4,7 +4,7 @@ A collision tracking app
 
 ## Installations
 
-### Angular 17 (Front end) installation
+### Angular 17 (Front end)
 
 - Angular installation: https://angular.io/docs
 
@@ -17,7 +17,7 @@ Once you have installed and build the app, run the command to start the app:
 
 `ng serve`
 
-### .NET Core API (Backend) installation
+### .NET Core API (Backend)
 
 - .NET SDK 8.0 required
 
