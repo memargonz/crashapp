@@ -9,6 +9,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:crash": "node dist/crash/server/server.mjs",
+    "server": "json-server --watch ./src/app/data/accidents.json",
     "postgres-init": "node .data/init.js"
   },
   "private": true,
